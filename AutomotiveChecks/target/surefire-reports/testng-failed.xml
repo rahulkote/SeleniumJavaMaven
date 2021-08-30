@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Carwale]" verbose="0">
+  <listeners>
+    <listener class-name="utils.ExtentReports.Listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Regression suite 1(failed)" verbose="0">
+    <classes>
+      <class name="tests.TestHomePage">
+        <methods>
+          <include name="setup_method"/>
+          <include name="setUpClass"/>
+          <include name="searchCarOnPage"/>
+          <include name="tearDownClass"/>
+          <include name="tearDown_method"/>
+        </methods>
+      </class> <!-- tests.TestHomePage -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [Carwale] -->
