@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.014 s <<< FAILURE! - in TestSuite
+searchCarOnPage(tests.TestHomePage)  Time elapsed: 4.678 s  <<< FAILURE!
+java.lang.AssertionError: expected [2] but found [1]
+	at tests.TestHomePage.searchCarOnPage(TestHomePage.java:47)
+

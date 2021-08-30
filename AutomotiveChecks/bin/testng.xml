@@ -1,0 +1,12 @@
+<suite name="Carwale" verbose="1" >
+
+  <test name="Regression suite 1">
+    <classes>
+      <class name="tests.TestHomePage"/>
+    </classes>
+  </test>
+  <listeners>
+       <listener class-name="utils.ExtentReports.Listeners.TestListener"/>
+  </listeners>
+  
+</suite>
